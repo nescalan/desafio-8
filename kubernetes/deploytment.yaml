@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: <tu-imagen-app>:latest # Cambiar por la imagen correspondiente
+          image: app-template-nestjs:latest # Cambiar por la imagen correspondiente
           ports:
             - containerPort: 3000
           env:
