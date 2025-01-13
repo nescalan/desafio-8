@@ -1,0 +1,30 @@
+# Archivos y carpetas específicas de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos generados por macOS
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Archivos específicos de Windows
+Thumbs.db
+Desktop.ini
+
+# Carpetas generadas por Windows
+$RECYCLE.BIN/
+
+# Archivos específicos de Linux
+*~
+
+# Archivos de respaldo comunes
+*.bak
+*.swp
+*.tmp
+*.temp
+*.log
+
+# Excluir directorios de sistemas operativos
+lost+found/
