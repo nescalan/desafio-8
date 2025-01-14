@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: desafio-8:latest # Cambiar por la imagen correspondiente
+          image: desafio-8:latest # imagen subida a github
           ports:
             - containerPort: 3000
           env:
