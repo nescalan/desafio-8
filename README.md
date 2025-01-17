@@ -20,18 +20,17 @@ La aplicación utilizada como base para este proyecto está disponible en el sig
 ```
 /desafio-8
 │
-├── app/                    # Código fuente clonado de la aplicación base.
-├── kubernetes/             # Archivos de manifiestos Kubernetes.
-│   ├── deployment.yaml     # Manifiesto del Deployment de la aplicación.
-│   ├── service.yaml        # Manifiesto del Service para exponer la aplicación.
-│   ├── configmap.yaml      # Configuración de variables de entorno.
-│   └── secrets.yaml        # Gestión de secretos.
-├── scripts/                # Scripts para facilitar el despliegue.
-├── docs/                   # Documentación adicional.
-│   ├── diagrama.png        # Diagrama de alto nivel de la solución.
-│   └── pasos.md            # Pasos detallados para el despliegue.
-├── README.md               # Documentación principal.
-└── evidencias/             # Resultados de pruebas exitosas.
+├── app/                        # Código fuente clonado de la aplicación base.
+├── kubernetes/                 # Archivos de manifiestos Kubernetes.
+│   ├── app-deployment.yaml     # Manifiesto del Deployment de la aplicación.
+│   ├── app-service.yaml        # Manifiesto del Service para exponer la aplicación.
+│   ├── mongo-deployment.yaml   # Manifesto del Deployment de la base de datos.
+│   └── mongo-service.yaml      # Manifiesto del Service para exponer la basde de datos.
+├── docs/                       # Documentación adicional.
+│   ├── diagrama.png            # Diagrama de alto nivel de la solución.
+│   └── pasos.md                # Pasos detallados para el despliegue.
+├── README.md                   # Documentación principal.
+└── evidencias/                 # Resultados de pruebas exitosas.
 ```
 
 ## Instrucciones de Uso
