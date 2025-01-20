@@ -63,10 +63,10 @@ kubectl get all
 
 ### 5. Acceder a la aplicación
 
-La aplicación estará disponible en la URL configurada en el manifiesto `service.yaml`. Si usas Minikube:
+La aplicación estará disponible en la URL configurada en el manifiesto `app-service.yaml`. Si usas Minikube:
 
 ```bash
-minikube service nombre-del-servicio
+minikube service app-service
 ```
 
 ## Contribuciones
