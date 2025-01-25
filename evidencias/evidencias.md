@@ -44,7 +44,7 @@ El objetivo de estas pruebas fue verificar que los manifiestos de Kubernetes se 
    ```
    **Resultado:** El servicio para MongoDB no presentó cambios, lo que indica que ya estaba configurado correctamente y no necesitaba ajustes.
 
-## Conclusión
+## Resultado
 
 En general, los resultados muestran que los recursos de Kubernetes para la aplicación y para MongoDB están correctamente configurados y operativos. El único problema encontrado fue un error al intentar aplicar un archivo inexistente (`kubernetes/mongo-`). Para evitar esto en el futuro, es importante verificar que todos los nombres de archivo sean correctos antes de ejecutar los comandos.
 
